@@ -86,8 +86,8 @@ void *
 words( void *file ) {
 //pthread_mutex_lock(&locker); 
 
-k=k+1;
-printf("%d\n",k);
+//k=k+1;
+//printf("%d\n",k);
 
 FILE *infile = (FILE *) file;
   char wordbuf[MAXWORD];
