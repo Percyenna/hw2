@@ -5,7 +5,7 @@
 #include <pthread.h>
 pthread_mutex_t locker = PTHREAD_MUTEX_INITIALIZER;
 int *ret;
-int k = 0;
+
 typedef struct dict {
   char *word;
   int count;
@@ -86,7 +86,7 @@ void *
 words( void *file ) {
 //pthread_mutex_lock(&locker); 
 
-//k=k+1;
+//k=k+1;f
 //printf("%d\n",k);
 
 FILE *infile = (FILE *) file;
